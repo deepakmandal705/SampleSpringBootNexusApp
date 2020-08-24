@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class WelcomeController {
 
+	//test api for welcome message.
 	@GetMapping("testapi/welcome")
 	public String welcome() {
 		return "Welcome in spring boot application. <br/> Automated deployment through jenkins and nexus from GIT repository.";
